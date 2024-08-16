@@ -40,6 +40,7 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
+      console.log("testing..")
       preloader.remove();
     });
   }
